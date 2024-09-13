@@ -6,7 +6,7 @@ Séance 1
 Installation de Godot
 ------------
 
-Pour commencer ce tutoriel, il vous faudra installer Godot. Pour cela, vous pouvez cliquer `ici <https://godotengine.org/download/windows/>`_ pour télécharger la dernière version de Godot (ce tuto a été écrit à la version 4.3).
+Pour commencer ce tutoriel, il vous faudra installer Godot. Pour cela, vous pouvez cliquer `ici <https://godotengine.org/download/>`_ pour télécharger la dernière version de Godot (ce tuto a été écrit à la version 4.3).
 Une fois le fichier .zip téléchargé et dézippé, vous pouvez lancer Godot. Vous verrez quelque chose comme ça:
 
 .. image:: img/projectmanager.png
@@ -40,7 +40,7 @@ Dans cette sous-partie, nous allons décrire les différents éléments qui comp
 1. En bas à gauche, vous trouverez l'arborescence. Il s'agit en réalité du dossier que vous venez de créer en créant le projet.
 Vous pouvez le retrouver sur votre ordinateur en suivant le chemin que vous aviez mis plus tôt.
 
-2. Juste au dessus, en haut à gauche, on trouve la scène.
+2. Juste au dessus, en haut à gauche, on trouve l'arborescence des scènes
 
 3. Blabla décrire la fenêtre de l'éditeur...
 
@@ -50,11 +50,17 @@ Commençons!
 ------------
 
 Déjà, mettez le pack d'assets téléchargé plus tôt dans votre projet (disponible ici si c'est pas encore fait (mettre le lien)).
-Vous devriez avoir un dossier qui ressemble à ça:
+Vous devriez avoir un dossier qui doit contenir au moins les choses suivantes:
 
-.. image:: img/screen_folder.png
+.. image:: img/projectfolder.png
 
+Dans cette première partie du tutoriel, nous allons créer le joueur, lui ajouter des animations et des mouvements basiques.
 
+En haut à gauche, créez une nouvelle scène en cliquant sur le bouton 'Other Node' ou le bouton '+'. Ajoutez un ''CharacterBody2D''.
+Le noeud CharacterBody2D devrait apparaître dans l'arborescence, et l'éditeur devrait être passé en mode 2D.
+Avant toute chose, sauvegardez votre nouvelle scène en appuyant sur ''Ctrl+S''. Vous pouvez créer un dossier ''scenes'' dans votre projet, et y enregistrer la scène du joueur en l'appellant ''player.tscn''.
+
+.. image:: img/characterbody2dwarning.png
 
 Trucs à effacer:
 ------------
